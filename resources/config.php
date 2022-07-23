@@ -1,7 +1,8 @@
 <?php ob_start(); //output buffering 
 
 session_start();
-// session_distroy();
+
+// session_destroy();// use when needed only
 
 
 defined("DS") ? null : define("DS", DIRECTORY_SEPARATOR);
